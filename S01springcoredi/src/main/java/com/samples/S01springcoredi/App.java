@@ -10,5 +10,7 @@ public class App
        
        Employee emp = (Employee) springContainer.getBean("emp"); 
        System.out.println(emp);
+       Hospital hospital = (hospital) springContainer.getBean("hospital"); 
+       System.out.println(hospital);
     }
 }
