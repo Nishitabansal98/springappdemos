@@ -1,4 +1,6 @@
 package com.samples.S01springcoredi;
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
 
 public class Patient {
 
@@ -21,11 +23,11 @@ public class Patient {
 	public String toString() {
 		return "Patient [id=" + id + "]";
 	}
-	
+	@PostConstruct
 	public void methodOne() {
 		System.out.println("Inside methodOne");
 	}
-	
+	@PreDestroy
 	public void methodTwo() {
 		System.out.println("Inside methodTwo");
 	}
