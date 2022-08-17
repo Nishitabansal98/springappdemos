@@ -43,6 +43,9 @@
 			</map>
 		</property>
 	</bean>
-
-
+	<bean name="items" class="com.samples.S01springcoredi.Item" p:id="101" p:name="Rice" p:price="1000" p:quantity="2" />
+	
+	<bean name="shoppingcart" class="com.samples.S01springcoredi.ShoppingCart" p:item-ref="items"/>
+	
+	
 </beans>
