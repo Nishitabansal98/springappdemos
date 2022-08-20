@@ -61,6 +61,7 @@
 			</props>
 		</property>
 	</bean>
+	
 
 	<bean name="scores" class="com.samples.S01springcoredi.Scores"
 		p:math="80" p:physics="87" p:chemistry="76" />
