@@ -18,9 +18,6 @@ public class App {
 		OrderService service = (OrderService) springContainer.getBean("orderservice");
 		System.out.println(service);
 		service.placeOrder();
-		
-		
-		
 
 	}
 }
