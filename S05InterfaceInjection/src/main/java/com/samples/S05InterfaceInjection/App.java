@@ -7,11 +7,6 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import com.samples.S05InterfaceInjection.DAO.OrderDAO;
 import com.samples.S05InterfaceInjection.DAO.impl.OrderDAOImpl;
 import com.samples.S05InterfaceInjection.service.OrderService;
-
-/**
- * Hello world!
- *
- */
 public class App {
 	private static final String List = null;
 
