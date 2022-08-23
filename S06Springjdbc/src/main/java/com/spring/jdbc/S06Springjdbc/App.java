@@ -3,10 +3,6 @@ package com.spring.jdbc.S06Springjdbc;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.jdbc.core.JdbcTemplate;
 
-/**
- * Hello world!
- *
- */
 public class App 
 {
 	public static void main(String[] args) {
