@@ -1,1 +1,0 @@
-package com.samples.S07SpringORM.entity;
