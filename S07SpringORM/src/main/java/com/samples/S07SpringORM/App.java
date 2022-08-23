@@ -13,7 +13,6 @@ public class App {
 	public static void main(String[] args) {
 		ClassPathXmlApplicationContext springContainer = new ClassPathXmlApplicationContext(
 				"com/samples/S07SpringORM/SpringConfig.xml");
-
 		ProductDAO productDAO = (ProductDAO) springContainer.getBean("productdao");
 		
 		Product product = new Product();
@@ -21,7 +20,6 @@ public class App {
 		product.setName("Furniture");
 		product.setDescription("rose wood");
 		product.setPrice(10000);
-		
 		productDAO.create(product);
 	}
 }
