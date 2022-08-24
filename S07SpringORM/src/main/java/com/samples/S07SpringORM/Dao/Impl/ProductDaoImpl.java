@@ -1,6 +1,6 @@
 package com.samples.S07SpringORM.Dao.Impl;
 
-import java.io.Serializable;
+import java.util.List;
 
 import javax.transaction.Transactional;
 
@@ -32,8 +32,13 @@ public class ProductDaoImpl implements ProductDAO {
 	public void delete(Product product) {
 		hibernateTemplate.delete(product);
 	}
-	
-	
 
+	public Product find(int id) {
+		return hibernateTemplate.get(Product.class, id);
+	}
+
+	public List<Product> findAll() {
+		return hibernateTemplate.loadAll(Product.class);
+	}
 
 }
