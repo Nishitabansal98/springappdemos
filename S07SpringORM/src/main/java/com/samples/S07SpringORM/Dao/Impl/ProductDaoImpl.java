@@ -1,4 +1,5 @@
 package com.samples.S07SpringORM.Dao.Impl;
+
 import java.io.Serializable;
 
 import javax.transaction.Transactional;
@@ -20,6 +21,16 @@ public class ProductDaoImpl implements ProductDAO {
 	public int create(Product product) {
 		Integer result = (Integer) hibernateTemplate.save(product);
 		return result;
+	}
+
+	@Transactional
+	public void update(Product product) {
+		hibernateTemplate.update(product);
+	}
+
+	@Transactional
+	public void delete(Product product) {
+		hibernateTemplate.delete(product);
 	}
 	
 	

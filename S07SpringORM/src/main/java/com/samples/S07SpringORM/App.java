@@ -15,12 +15,36 @@ public class App {
 				"com/samples/S07SpringORM/SpringConfig.xml");
 
 		ProductDAO productDAO = (ProductDAO) springContainer.getBean("productdao");
+		//create(productDAO);
+		//update(productDAO);
+		delete(productDAO);
 		
+	}
+	private static void delete(ProductDAO productDAO) {
 		Product product = new Product();
-		product.setId(1);
+		product.setId(2);
 		product.setName("Furniture");
 		product.setDescription("rose wood");
-		product.setPrice(10000);
+		product.setPrice(8000);
+		
+		productDAO.delete(product);
+	}
+
+	private static void update(ProductDAO productDAO) {
+		Product product = new Product();
+		product.setId(2);
+		product.setName("Furniture");
+		product.setDescription("rose wood");
+		product.setPrice(8000);
+		
+		productDAO.update(product);
+	}
+	private static void create(ProductDAO productDAO) {
+		Product product = new Product();
+		product.setId(2);
+		product.setName("Furniture");
+		product.setDescription("rose wood");
+		product.setPrice(50000);
 		
 		productDAO.create(product);
 	}
