@@ -10,4 +10,4 @@ public class HomeController {
 			System.out.println("This is home url");
 			return  "index";
 		}
-	}
+}
