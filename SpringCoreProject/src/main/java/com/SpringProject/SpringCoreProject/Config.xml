@@ -6,15 +6,9 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
  http://www.springframework.org/schema/beans/spring-beans.xsd
  http://www.springframework.org/schema/context
+ 
  http://www.springframework.org/schema/context/spring-context.xsd">
-  <bean class = "com.SpringProject.SpringCoreProject.Student" name ="student1">
-    	<property name ="studentId" value="2527422"/>
-    	<property name ="studentName" value = "Nishita"/>
-   	    <property name ="studentAddress" value = "Mathura"/>
- </bean>
- <bean class = "com.SpringProject.SpringCoreProject.Student" name ="student2">
-    	<property name ="studentId" value="25274223"/>
-    	<property name ="studentName" value = "Tia"/>
-   	    <property name ="studentAddress" value = "Kerela"/>
- </bean>
+ <bean class = "com.SpringProject.SpringCoreProject.Student" name ="student1" p:studentId="1" p:studentName="Nishita" p:studentAddress="Agra" />
+ <bean class = "com.SpringProject.SpringCoreProject.Student" name ="student2" p:studentId="2" p:studentName="Tia" p:studentAddress="Mathura" />
+   	    
  </beans>
