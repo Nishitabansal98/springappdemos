@@ -12,4 +12,9 @@
     	<property name ="studentName" value = "Nishita"/>
    	    <property name ="studentAddress" value = "Mathura"/>
  </bean>
+ <bean class = "com.SpringProject.SpringCoreProject.Student" name ="student2">
+    	<property name ="studentId" value="25274223"/>
+    	<property name ="studentName" value = "Tia"/>
+   	    <property name ="studentAddress" value = "Kerela"/>
+ </bean>
  </beans>
