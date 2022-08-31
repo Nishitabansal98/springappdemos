@@ -3,7 +3,6 @@ package com.springcore.ref;
 public class A {\
 	private int x;
 private B ob;
-}
 	public int getX() {
 		return x;
 	}
@@ -16,9 +15,6 @@ private B ob;
 	public void setOb(B ob) {
 		this.ob = ob;
 	}
-	/**
-	 * 
-	 */
 	public A() {
 		super();
 	}
@@ -26,3 +22,4 @@ private B ob;
 	public String toString() {
 		return "A [x=" + x + ", ob=" + ob + "]";
 	}
+}
