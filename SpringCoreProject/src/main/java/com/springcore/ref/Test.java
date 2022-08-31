@@ -10,5 +10,4 @@ public class Test {
 	   System.out.println(temp.getX());
 	   System.out.println(temp.getOb().getY());
 	}
-
 }
