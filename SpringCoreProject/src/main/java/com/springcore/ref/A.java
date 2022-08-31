@@ -1,6 +1,6 @@
 package com.springcore.ref;
 
-public class A {\
+public class A {
 	private int x;
 private B ob;
 	public int getX() {
