@@ -6,9 +6,7 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
  http://www.springframework.org/schema/beans/spring-beans.xsd
  http://www.springframework.org/schema/context
- 
  http://www.springframework.org/schema/context/spring-context.xsd">
-
 <bean class="com.springcore.ref.B" name="bref">
 <property name= "y" value="12"/>
 </bean>
@@ -18,7 +16,5 @@
 <ref bean="breaf"/>
 </property>
 </bean>
-
-
 
  </beans>
