@@ -1,4 +1,4 @@
-package com.sprincore.auto.wire.annotation;
+package com.springcore.auto.wire.annotation;
 
 import org.springframework.beans.factory.annotation.Autowired;
 

@@ -1,1 +1,0 @@
-package com.sprincore.auto.wire.annotation;
