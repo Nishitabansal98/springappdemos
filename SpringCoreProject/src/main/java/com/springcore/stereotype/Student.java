@@ -1,9 +1,8 @@
 package com.springcore.stereotype;
 
 public class Student {
-public static void main(String[] args) {
-		
+		private String studentName;
+		private String city;
 		
 	}
 
-}
